@@ -1,4 +1,4 @@
-package com.tradewize.dagger
+package com.futuremind.daggerutils
 
 /**
  * Marks an activity / fragment injectable for [AndroidComponentsInjector]

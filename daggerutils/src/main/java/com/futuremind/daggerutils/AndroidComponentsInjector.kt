@@ -1,4 +1,4 @@
-package com.tradewize.dagger
+package com.futuremind.daggerutils
 
 import dagger.android.support.AndroidSupportInjection
 import android.os.Bundle
