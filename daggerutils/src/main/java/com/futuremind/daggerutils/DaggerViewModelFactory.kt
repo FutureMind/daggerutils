@@ -1,4 +1,4 @@
-package com.futuremind.daggerviewmodelfactory
+package com.futuremind.daggerutils
 
 import android.arch.lifecycle.ViewModel
 import android.arch.lifecycle.ViewModelProvider

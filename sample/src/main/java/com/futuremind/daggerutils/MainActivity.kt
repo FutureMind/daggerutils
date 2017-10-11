@@ -1,4 +1,4 @@
-package com.futuremind.daggerviewmodelfactory
+package com.futuremind.daggerutils
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle

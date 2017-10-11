@@ -1,4 +1,4 @@
-package com.futuremind.daggerviewmodelfactory
+package com.futuremind.daggerutils
 
 import kotlin.annotation.AnnotationRetention.RUNTIME
 import kotlin.reflect.KClass

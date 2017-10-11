@@ -1,4 +1,4 @@
-package com.futuremind.daggerviewmodelfactory
+package com.futuremind.daggerutils
 
 import org.junit.Test
 

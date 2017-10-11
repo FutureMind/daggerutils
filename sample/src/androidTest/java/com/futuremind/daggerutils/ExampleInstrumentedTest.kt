@@ -1,4 +1,4 @@
-package com.futuremind.daggerviewmodelfactory
+package com.futuremind.daggerutils
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
