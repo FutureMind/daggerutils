@@ -1,7 +1,7 @@
 package com.futuremind.daggerutils
 
-import android.arch.lifecycle.ViewModel
-import android.arch.lifecycle.ViewModelProvider
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
 import javax.inject.Provider
 
 @javax.inject.Singleton

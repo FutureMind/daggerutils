@@ -1,14 +1,14 @@
 package com.futuremind.daggerutils
 
-import dagger.android.support.AndroidSupportInjection
-import android.os.Bundle
-import android.support.v4.app.FragmentActivity
-import dagger.android.AndroidInjection
 import android.app.Activity
 import android.app.Application
 import android.content.Context
-import android.support.v4.app.Fragment
-import android.support.v4.app.FragmentManager
+import android.os.Bundle
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentActivity
+import androidx.fragment.app.FragmentManager
+import dagger.android.AndroidInjection
+import dagger.android.support.AndroidSupportInjection
 
 /**
  * Based on https://github.com/googlesamples/android-architecture-components/blob/master/GithubBrowserSample/app/src/main/java/com/android/example/github/di/AppInjector.java
