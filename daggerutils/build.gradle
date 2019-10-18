@@ -4,13 +4,13 @@ apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'kotlin-kapt'
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion 29
 
     defaultConfig {
         minSdkVersion 16
-        targetSdkVersion 27
+        targetSdkVersion 29
         versionCode 1
-        versionName "0.2.2"
+        versionName "0.3.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
@@ -24,9 +24,9 @@ android {
 }
 
 dependencies {
-    def dagger_version = '2.14'
+    def dagger_version = '2.24'
 
-    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation "com.google.dagger:dagger:$dagger_version"
     kapt "com.google.dagger:dagger-compiler:$dagger_version"
@@ -34,8 +34,8 @@ dependencies {
     kapt "com.google.dagger:dagger-android-processor:$dagger_version"
 
     //lifecycle
-    implementation 'android.arch.lifecycle:extensions:1.1.1'
-    kapt "android.arch.lifecycle:compiler:1.1.1"
+    implementation "androidx.lifecycle:lifecycle-extensions:2.1.0"
+    implementation "androidx.lifecycle:lifecycle-common-java8:2.1.0"
 
 }
 repositories {
